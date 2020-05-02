@@ -1,0 +1,30 @@
+
+
+name: firebase
+
+
+on:
+  push:
+    branches: 
+      -master
+
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Build
+      run: |
+        yarn
+        yarn build
+
+    - name: Firebase Deploy
+      run: |
+        sudo yarn add -g firebase-tools
+        firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
