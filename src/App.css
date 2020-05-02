@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#welcome-message {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #0a6bc5;
   color: white;
+  padding: 20px;
+}
+#welcome-text{
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+#picture-wrapper {
+  display:flex;
+  justify-content: center;
+  padding: 1rem;
+  
+}
+.picture-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.8fr 0.2fr;
+  gap: 1px 1px;
+  grid-template-areas: "picture picture picture" "Name Sold Price";
+  background-color: green;
+  width: 30vw
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.picture { grid-area: picture; }
+
+#picture {
+  max-width: 100%;
+}
+.Name { 
+  grid-area: Name;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.Price { 
+  grid-area: Price; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sold { 
+  grid-area: Sold; 
+  color:RED;
+  font-weight: 600;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
