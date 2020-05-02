@@ -3,11 +3,16 @@ import React from 'react'
 export default function Painting(props) {
     return (
         <div id="picture-wrapper">
-            <div class="picture-container">
-                <div class="picture"><img id="picture" src={"img/"+props.image} alt="tavla1" /></div>
-                <div class="Name"><p>{props.name}</p></div>
-                <div class="Sold"><p>{props.Sold && "SÅLD"}</p></div>
-                <div class="Price"><p>{props.price}</p></div>
+            <div id="picture-container">
+                <div id="picture"><img id="picture" src={"img/"+props.image} alt="tavla1" /></div>
+                <div id="Name"><p>{props.name}</p></div>
+                <div id="Sold"><p>{props.sold && "SÅLD"}</p></div>
+                <div id="Price">
+                    <p>{props.price}</p>
+                </div>
+                <div id="Size">
+                    <p>{props.size}</p>
+                </div>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@
 #welcome-message {
   display:flex;
   justify-content: center;
-  background-color: #0a6bc5;
+  background-color: #e986e4;
   color: white;
   padding: 20px;
 }
@@ -16,37 +16,45 @@
   padding: 1rem;
   
 }
-.picture-container {
+#picture-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.8fr 0.2fr;
+  grid-template-rows: 2.6fr 0.2fr 0.2fr;
   gap: 1px 1px;
-  grid-template-areas: "picture picture picture" "Name Sold Price";
-  background-color: green;
+  grid-template-areas: "picture picture picture" "Name Sold Price" "Name Sold Size";
+  background-color: #e986e4;
   width: 30vw
 }
 
-.picture { grid-area: picture; }
+#picture { grid-area: picture; }
 
 #picture {
   max-width: 100%;
 }
-.Name { 
+#Name { 
   grid-area: Name;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 5px;
  }
 
-.Price { 
-  grid-area: Price; 
+#Price {
+  grid-area: Price;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Sold { 
+#Size {
+  grid-area: Size;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Sold { 
   grid-area: Sold; 
   color:RED;
   font-weight: 600;
