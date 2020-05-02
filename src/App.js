@@ -1,10 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Painting from './components/Painting/Painting'
+import Header from './components/Header/Header'
 function App() {
   return (
-    <Painting/>
+    <div>
+      <Header/>
+      <Painting />
+    </div>
+    
   );
 }
 
