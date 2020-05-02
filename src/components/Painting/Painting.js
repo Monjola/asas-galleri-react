@@ -10,6 +10,5 @@ export default function Painting(props) {
                 <div class="Price"><p>{props.price}</p></div>
             </div>
         </div>
-        
     )
 }
