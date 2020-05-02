@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <Painting name="women" price="2000kr" Sold={true} image="tavla.jpg"/>
+      <Painting name="women" price="2000kr" image="tavla.jpg"/>
       <Painting name="women" price="2000kr" image="tavla2.jpg" />
       <Painting name="women" price="2000kr" image="tavla3.jpg" />
       <Painting name="women" price="2000kr" image="tavla4.jpg" />
