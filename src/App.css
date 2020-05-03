@@ -4,15 +4,17 @@
   justify-content: center;
   background-color: #f8bac5;
   color: white;
-  padding: 20px;
 }
 #welcome-text{
-  font-size: 30px;
+  font-size: 50px;
+  font-family: 'Neucha', cursive;
+  /*font-family: 'Indie Flower', cursive;
+  font-family: 'Handlee', cursive;*/
 }
 
 #picture-wrapper {
-  display:flex;
-  justify-content: center;
+  float:left;
+  
   padding: 1rem;
   
 }
