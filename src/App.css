@@ -2,7 +2,7 @@
 #welcome-message {
   display:flex;
   justify-content: center;
-  background-color: #e986e4;
+  background-color: #f8bac5;
   color: white;
   padding: 20px;
 }
@@ -22,7 +22,7 @@
   grid-template-rows: 2.6fr 0.2fr 0.2fr;
   gap: 1px 1px;
   grid-template-areas: "picture picture picture" "Name Sold Price" "Name Sold Size";
-  background-color: #e986e4;
+  background-color: #f8bac5;
   width: 30vw
 }
 
