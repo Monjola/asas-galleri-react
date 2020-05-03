@@ -1,4 +1,6 @@
-
+body {
+  background-color: #fad8de;
+}
 #welcome-message {
   display:flex;
   justify-content: center;
@@ -14,8 +16,8 @@
 
 #picture-wrapper {
   float:left;
-  
-  padding: 1rem;
+  width: 30%;
+  margin: 1.66%;
   
 }
 #picture-container {
@@ -27,7 +29,12 @@
   background-color: #f8bac5;
   width: 30vw
 }
-
+.image-text {
+  color: white;
+  font-weight: bold;
+  font-family:  'Neucha', cursive;
+  font-size: 1.5em;
+}
 #picture { grid-area: picture; }
 
 #picture {
@@ -58,9 +65,10 @@
 }
 #Sold { 
   grid-area: Sold; 
-  color:RED;
+  color:rgb(255, 82, 82);
   font-weight: 600;
-  font-size: x-large;
+  font-size: 3em;
+  font-family: 'Neucha';
   display: flex;
   justify-content: center;
   align-items: center;
