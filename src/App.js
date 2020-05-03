@@ -13,7 +13,6 @@ function App() {
       <Painting size="30x20cm" name="Mira Mittbena" sold={true} price="1800kr" image="tavla-mittbenan.jpg" />
       <Painting size="30x20cm" name="Hilton Tilton" sold={true} price="1600kr" image="tavla-sne.jpg" />
       <Painting size="30x20cm" name="Elvira Blåtira" sold={true} price="1500kr" image="tavla4.jpg" />
-      
     </div>
     
   );

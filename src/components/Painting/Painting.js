@@ -1,5 +1,4 @@
 import React from 'react'
-//"img/tavla.jpg"
 export default function Painting(props) {
     return (
         <div id="picture-wrapper">

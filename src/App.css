@@ -1,12 +1,16 @@
 body {
   background-color: #fad8de;
 }
+
+/*Header*/
 #welcome-message {
   display:flex;
   justify-content: center;
   background-color: #f8bac5;
   color: white;
+  position: relative;
 }
+
 #welcome-text{
   font-size: 50px;
   font-family: 'Neucha', cursive;
@@ -14,6 +18,14 @@ body {
   font-family: 'Handlee', cursive;*/
 }
 
+#kontakt-info {
+  position: absolute;            /* remove box from the normal flow */
+  right: 2%;   
+  font-family: 'Neucha', cursive;
+  font-size: 1.6em
+}
+
+/*Painting */
 #picture-wrapper {
   float:left;
   width: 30%;
