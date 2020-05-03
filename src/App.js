@@ -7,7 +7,7 @@ function App() {
     <div>
       <Header/>
       <Painting size="30x20cm" name="Knölis och Bölis" price="1800kr/st" image="tavla.jpg"/>
-      <Painting size="30x50cm" name="Lina & Lina Näslund" price="2100kr" image="tavla2.jpg" />
+      <Painting size="30x50cm" name="L & L Näslund" price="2100kr" image="tavla2.jpg" />
       <Painting size="30x20cm" name="Grynet Fjäderbrynet" price="2000kr" image="tavla-sophie.jpg" />
       <Painting size="30x20cm" name="Orangetant" sold={true} price="1500kr" image="tavla-orange.jpg" />
       <Painting size="30x20cm" name="Mira Mittbena" sold={true} price="1800kr" image="tavla-mittbenan.jpg" />
